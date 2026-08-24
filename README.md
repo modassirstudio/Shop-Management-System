@@ -48,7 +48,19 @@ A full-stack desktop application for managing shop sales, inventory, customers, 
 
 \- sales
 
+\## Screenshots
 
+\-| Login | Dashboard | Reports | Export |
+\-|:--|:--|
+\-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Reports](screenshots/reports_&_analysis.png) | ![Export](screenshots/export_to_excel.png) |
+
+\-| Products | Sales | Customer |
+\-|:--|:--|
+\-| ![Products](screenshots/products.png) | ![Sales](screenshots/sales.png) | ![Customer](screenshots/customers.png) |
+
+\## ER Diagram
+
+![ER Diagram](screenshots/er_diagram.png)
 
 \## Setup
 
