@@ -1,84 +1,77 @@
-\# Shop Management System
+# Shop Management System
 
+A full-stack desktop application for managing shop sales, inventory, customers, and reports. Built to solve real small-business needs.
 
+## 🎯 About This Project
 
-A full-stack desktop application for managing shop sales, inventory, customers, and reports.
+Small shop owners often rely on paper registers or scattered spreadsheets. This application replaces that with a single desktop system for managing products, customers, sales, and stock — with automatic profit calculation and Excel export for reporting.
 
+**Built independently to solve real shop management needs.**
 
+## 🛠️ Technologies
 
-\## Technologies
+| Technology | Purpose |
+|------------|---------|
+| Java (Swing) | Desktop UI |
+| MySQL | Database |
+| JDBC | Database connectivity |
+| DAO Pattern | Clean code architecture |
 
-\- Java (Swing)
+## ✨ Features
 
-\- MySQL
+- 🔐 Admin login with authentication
+- 📦 Product management (CRUD + search)
+- 👥 Customer management
+- 💰 Sales entry with auto-profit calculation
+- 📊 Real-time stock updates
+- 📈 Reports (Daily / All / Revenue / Profit)
+- 📥 Excel export for external analysis
+- 🖥️ Dashboard with live KPI cards
 
-\- JDBC
+## 🗄️ Database Tables
 
-\- DAO Pattern
+- `users` — admin authentication
+- `products` — product catalog with price & stock
+- `customers` — customer records
+- `sales` — transaction history with profit tracking
 
+## 📸 Screenshots
 
+### Login & Dashboard
+| Login | Dashboard |
+|:--:|:--:|
+| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
 
-\## Features
+### Reports & Export
+| Reports | Export to Excel |
+|:--:|:--:|
+| ![Reports](screenshots/reports_&_analysis.png) | ![Export](screenshots/export_to_excel.png) |
 
-\- 🔐 Admin login
+### Products, Sales & Customers
+| Products | Sales | Customer |
+|:--:|:--:|:--:|
+| ![Products](screenshots/products.png) | ![Sales](screenshots/sales.png) | ![Customer](screenshots/customers.png) |
 
-\- 📦 Product CRUD + Search
-
-\- 👥 Customer management
-
-\- 💰 Sales with auto-profit calculation
-
-\- 📊 Real-time stock updates
-
-\- 📈 Reports (Daily/All/Revenue/Profit)
-
-\- 📥 Excel export
-
-\- 🖥️ Dashboard with live cards
-
-
-
-\## Database Tables
-
-\- users
-
-\- products
-
-\- customers
-
-\- sales
-
-\## Screenshots
-
-\-| Login | Dashboard | Reports | Export |
-\-|:--|:--|
-\-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Reports](screenshots/reports_&_analysis.png) | ![Export](screenshots/export_to_excel.png) |
-
-\-| Products | Sales | Customer |
-\-|:--|:--|
-\-| ![Products](screenshots/products.png) | ![Sales](screenshots/sales.png) | ![Customer](screenshots/customers.png) |
-
-\## ER Diagram
+## 📐 ER Diagram
 
 ![ER Diagram](screenshots/er_diagram.png)
 
-\## Setup
+## 🚀 Setup Instructions
 
-1\. Run schema.sql in MySQL Workbench
+1. Run `schema.sql` in MySQL Workbench
+2. Update `DBConnection.java` with your MySQL credentials
+3. Run `LoginFrame.java` to start the application
 
-2\. Update DBConnection.java with your MySQL password
+## 📚 What I Learned
 
-3\. Run LoginFrame.java
+- Building a full-stack desktop app from scratch
+- Designing a normalized database schema with relationships
+- Implementing the DAO pattern for clean separation of concerns
+- Handling real-world scenarios like stock updates and profit calculation
+- Exporting data to Excel for further analysis
 
+## 👤 Author
 
-
-\## Acknowledgment
-
-This project was built with guidance from an AI mentor (DeepSeek) who provided structure, code review, and step-by-step learning.
-
-
-
-\## Author
-
-Md Modassir
-
+**Md Modassir**
+- GitHub: [@modassirstudio](https://github.com/modassirstudio)
+- Project: [Shop Management System](https://github.com/modassirstudio/Shop-Management-System)
