@@ -40,7 +40,7 @@ Small shop owners often rely on paper registers or scattered spreadsheets. This 
 ### Login & Dashboard
 | Login | Dashboard |
 |:--:|:--:|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](screenshots/Login.png) | ![Dashboard](screenshots/Dashboard.png) |
 
 ### Reports & Export
 | Reports | Export to Excel |
