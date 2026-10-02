@@ -75,3 +75,5 @@ Small shop owners often rely on paper registers or scattered spreadsheets. This 
 **Md Modassir**
 - GitHub: [@modassirstudio](https://github.com/modassirstudio)
 - Project: [Shop Management System](https://github.com/modassirstudio/Shop-Management-System)
+- LikedIn: [Md Modassir](https://www.linkedin.com/in/md-modassir-801a38438/)
+- Portfolio Website: [MoD Studio](https://modassirstudio.github.io/Portfolio/)
